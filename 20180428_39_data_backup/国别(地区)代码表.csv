@@ -1,0 +1,244 @@
+国别地区代码,中文名(简称),英文名(简称),优/普税率
+101,阿富汗,Afghanistan,L
+102,巴林,Bahrian,L
+103,孟加拉国,Bangladesh,L
+104,不丹,Bhutan,H
+105,文莱,Brunei,L
+106,缅甸,Myanmar,L
+107,柬埔寨,Cambodia,L
+108,塞浦路斯,Cyprus,L
+109,朝鲜,Korea,DPR,L
+110,香港,Hong Kong,L
+111,印度,India,L
+112,印度尼西亚,Indonesia,L
+113,伊朗,Iran,L
+114,伊拉克,Iraq,L
+115,以色列,Israel,L
+116,日本,Japan,L
+117,约旦,Jordan,L
+118,科威特,Kuwait,L
+119,老挝,Lao PDR,L
+120,黎巴嫩,Lebanon,L
+121,澳门,Macau,L
+122,马来西亚,Malaysia,L
+123,马尔代夫,Maldives,L
+124,蒙古,Mongolia,L
+125,尼泊尔联邦民主共和国,Nepal, FDR,L
+126,阿曼,Oman,L
+127,巴基斯坦,Pakistan,L
+128,巴勒斯坦,Palestine,H
+129,菲律宾,Philippines,L
+130,卡塔尔,Qatar,L
+131,沙特阿拉伯,Saudi Arabia,L
+132,新加坡,Singapore,L
+133,韩国,Korea, Rep.,L
+134,斯里兰卡,Sri Lanka,L
+135,叙利亚,Syrian Arab Republic,L
+136,泰国,Thailand,L
+137,土耳其,Turkey,L
+138,阿联酋,United Arab Emirates,L
+139,也门,Yemen,L
+141,越南,Viet Nam,L
+142,中国,China,L
+143,台澎金马关税区,Taiwan, Prov.of China,L
+144,东帝汶,Timor-Leste,L
+145,哈萨克斯坦,Kazakhstan,L
+146,吉尔吉斯斯坦,Kyrgyzstan,L
+147,塔吉克斯坦,Tajikistan,L
+148,土库曼斯坦,Turkmenistan,L
+149,乌兹别克斯坦,Uzbekistan,L
+199,亚洲其他国家(地区),Oth. Asia nes, 
+201,阿尔及利亚,Algeria,L
+202,安哥拉,Angola,L
+203,贝宁,Benin,L
+204,博茨瓦那,Botswana,L
+205,布隆迪,Burundi,L
+206,喀麦隆,Cameroon,L
+207,加那利群岛,Canary Islands,H
+208,佛得角,Cape Verde,L
+209,中非,Central African Republic.,L
+210,塞卜泰(休达),Ceuta,H
+211,乍得,Chad,L
+212,科摩罗,Comoros,H
+213,刚果(布),Congo,L
+214,吉布提,Djibouti,L
+215,埃及,Egypt,L
+216,赤道几内亚,Equatorial Guinea,L
+217,埃塞俄比亚,Ethiopia,L
+218,加蓬,Gabon,L
+219,冈比亚,Gambia,L
+220,加纳,Ghana,L
+221,几内亚,Guinea,L
+222,几内亚比绍,Guinea-Bissau,L
+223,科特迪瓦,Cote d'lvoire,L
+224,肯尼亚,Kenya,L
+225,利比里亚,Liberia,L
+226,利比亚,Libyan Arab Jamahiriya,L
+227,马达加斯加,Madagascar,L
+228,马拉维,Malawi,L
+229,马里,Mali,L
+230,毛里塔尼亚,Mauritania,L
+231,毛里求斯,Mauritius,L
+232,摩洛哥,Morocco,L
+233,莫桑比克,Mozambique,L
+234,纳米比亚,Namibia,L
+235,尼日尔,Niger,L
+236,尼日利亚,Nigeria,L
+237,留尼汪,Reunion,H
+238,卢旺达,Rwanda,L
+239,圣多美和普林西比,Sao Tome and Principe,H
+240,塞内加尔,Senegal,L
+241,塞舌尔,Seychelles,H
+242,塞拉利昂,Sierra Leone,L
+243,索马里,Somalia,L
+244,南非,South Africa,L
+245,西撒哈拉,Western Sahara,H
+246,苏丹,Sudan,L
+247,坦桑尼亚,Tanzania,L
+248,多哥,Togo,L
+249,突尼斯,Tunisia,L
+250,乌干达,Uganda,L
+251,布基纳法索,Burkina Faso,L
+252,刚果(金),Congo,DR,L
+253,赞比亚,Zambia,L
+254,津巴布韦,Zimbabwe,L
+255,莱索托,Lesotho,L
+256,梅利利亚,Melilla,H
+257,斯威士兰,Swaziland,L
+258,厄立特里亚,Eritrea,L
+259,马约特,Mayotte,L
+260,南苏丹共和国,Republic of South Sudan ,H
+299,非洲其他国家(地区),Oth. Afr. nes, 
+301,比利时,Belgium,L
+302,丹麦,Denmark,L
+303,英国,United Kingdom,L
+304,德国,Germany,L
+305,法国,France,L
+306,爱尔兰,Ireland,L
+307,意大利,Italy,L
+308,卢森堡,Luxembourg,L
+309,荷兰,Netherlands,L
+310,希腊,Greece,L
+311,葡萄牙,Portugal,L
+312,西班牙,Spain,L
+313,阿尔巴尼亚,Albania,L
+314,安道尔,Andorra,H
+315,奥地利,Austria,L
+316,保加利亚,Bulgaria,L
+318,芬兰,Finland,L
+320,直布罗陀,Gibraltar,H
+321,匈牙利,Hungary,L
+322,冰岛,Iceland,L
+323,列支敦士登,Liechtenstein,L
+324,马耳他,Malta,L
+325,摩纳哥,Monaco,L
+326,挪威,Norway,L
+327,波兰,Poland,L
+328,罗马尼亚,Romania,L
+329,圣马力诺,San Marino,L
+330,瑞典,Sweden,L
+331,瑞士,Switzerland,L
+334,爱沙尼亚,Estonia,L
+335,拉脱维亚,Latvia,L
+336,立陶宛,Lithuania,L
+337,格鲁吉亚,Georgia,L
+338,亚美尼亚,Armenia,L
+339,阿塞拜疆,Azerbai jan,L
+340,白俄罗斯,Belarus,L
+343,摩尔多瓦,Moldova,L
+344,俄罗斯联邦,Russian Federation,L
+347,乌克兰,Ukraine,L
+349,塞尔维亚和黑山, ,H
+350,斯洛文尼亚,Slovenia ,L
+351,克罗地亚,Croatia,L
+352,捷克,Czech Republic,L
+353,斯洛伐克,Slovakia,L
+354,前南马其顿,Macedonia,FYR,L
+355,波黑,Bosnia and Hercegovina,L
+356,梵蒂冈城国,Vatican City State,H
+357,法罗群岛,Faroe Islands,L
+358,塞尔维亚,Serbia,L
+359,黑山,Montenegro,L
+399,欧洲其他国家(地区),Oth. Eur. nes, 
+401,安提瓜和巴布达,Antigua & Barbuda,L
+402,阿根廷,Argentina,L
+403,阿鲁巴,Aruba,H
+404,巴哈马,Bahamas,H
+405,巴巴多斯,Barbados,L
+406,伯利兹,Belize,L
+408,多民族玻利维亚国,Estado Plurinacional de Bolivia,L
+409,博内尔,Bonaire,H
+410,巴西,Brazil,L
+411,开曼群岛,Cayman Islands,H
+412,智利,Chile,L
+413,哥伦比亚,Colombia,L
+414,多米尼克,Dominica,L
+415,哥斯达黎加,Costa Rica,L
+416,古巴,Cuba,L
+417,库腊索岛,Curacao,H
+418,多米尼加共和国,Dominican Republic,L
+419,厄瓜多尔,Ecuador,L
+420,法属圭亚那,French Guiana,H
+421,格林纳达,Grenada,L
+422,瓜德罗普,Guadeloupe,H
+423,危地马拉,Guatemala,L
+424,圭亚那,Guyana,L
+425,海地,Haiti,L
+426,洪都拉斯,Honduras,L
+427,牙买加,Jamaica,L
+428,马提尼克,Martinique,H
+429,墨西哥,Mexico,L
+430,蒙特塞拉特,Montserrat,H
+431,尼加拉瓜,Nicaragua,L
+432,巴拿马,Panama,L
+433,巴拉圭,Paraguay,L
+434,秘鲁,Peru,L
+435,波多黎各,Puerto Rico,L
+436,萨巴,Saba,H
+437,圣卢西亚,Saint Lucia,L
+438,圣马丁岛,Saint Martin Islands,H
+439,圣文森特和格林纳丁斯,Saint Vincent and Grenadines,L
+440,萨尔瓦多,El Salvador,H
+441,苏里南,Suriname,L
+442,特立尼达和多巴哥,Trinidad and Tobago,L
+443,特克斯和凯科斯群岛,Turks and Caicos Islands,H
+444,乌拉圭,Uruguay,L
+445,委内瑞拉,Venezuela,L
+446,英属维尔京群岛,Virgin Islands, British,H
+447,圣其茨和尼维斯,Saint Kitts and Nevis,L
+448,圣皮埃尔和密克隆,Saint.Pierre and Miquelon,L
+449,荷属安地列斯,Netherlands Antilles,H
+499,拉丁美洲其他国家(地区),Oth. L.Amer. nes, 
+501,加拿大,Canada,L
+502,美国,United States,L
+503,格陵兰,Greenland,L
+504,百慕大,Bermuda,H
+599,北美洲其他国家(地区),Oth. N.Amer. nes, 
+601,澳大利亚,Australia,L
+602,库克群岛,Cook Islands,L
+603,斐济,Fiji,L
+604,盖比群岛,Gambier Islands,H
+605,马克萨斯群岛,Marquesas Islands,H
+606,瑙鲁,Nauru,H
+607,新喀里多尼亚,New Caledonia,L
+608,瓦努阿图,Vanuatu,L
+609,新西兰,New Zealand,L
+610,诺福克岛,Norfolk Island,H
+611,巴布亚新几内亚,Papua New Guinea,L
+612,社会群岛,Society Islands,H
+613,所罗门群岛,Solomon Islands,L
+614,汤加,Tonga,L
+615,土阿莫土群岛,Tuamotu Islands,H
+616,土布艾群岛,Tubai Islands,H
+617,萨摩亚,Samoa,L
+618,基里巴斯,Kiribati,H
+619,图瓦卢,Tuvalu,H
+620,密克罗尼西亚联邦,Micronesia, Fs,L
+621,马绍尔群岛,Marshall Islands,H
+622,帕劳,Palau,H
+623,法属波利尼西亚,French Polynesia,L
+625,瓦利斯和浮图纳,Wallis and Futuna,L
+699,大洋洲其他国家(地区),Oth. Ocean. nes, 
+701,国(地)别不详,Countries(reg.) unknown,H
+702,联合国及机构和国际组织,UN and oth. int'l org., 
+999,中性包装原产国别,Conutries of Neutral Package,H

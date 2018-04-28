@@ -1,0 +1,135 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	通关参数查询2
+</title><link href="../Css/page.css" rel="stylesheet" type="text/css" />
+       <script type="text/javascript">
+    function onBackClick()
+    {
+        try
+        {
+            var strLink = "CscxMsList.aspx";
+            window.location.replace(strLink);
+        }
+        catch(e)
+        {
+            showError(e);
+        }
+    }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="CscxListView.aspx?tableName=zfs_table_myfs" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NDU1Njc2Mw8WBB4JVGFibGVOYW1lBQ56ZnNfdGFibGVfbXlmcx4GUGFnZU5vAgMWAgIDD2QWBgIDDxYCHglpbm5lcmh0bWwFFei0uOaYk+aWueW8j+S7o+eggeihqGQCBw88KwANAgAPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCHmQBDxQrAAMUKwAFFgQeCkhlYWRlclRleHQFEui0uOaYk+aWueW8j+S7o+eggR4JRGF0YUZpZWxkBQdteWZzX25vFgQeD0hvcml6b250YWxBbGlnbgsqKVN5c3RlbS5XZWIuVUkuV2ViQ29udHJvbHMuSG9yaXpvbnRhbEFsaWduAh4EXyFTQgKAgAQWBB8HCysEAh8IAoCABGRkFCsABRYEHwUFEui0uOaYk+aWueW8j+eugOensB8GBQpteWZzX3NuYW1lFgQfBwsrBAIfCAKAgAQWBB8HCysEAh8IAoCABGRkFCsABRYEHwUFEui0uOaYk+aWueW8j+WFqOensB8GBQlteWZzX25hbWUWBB8HCysEAh8IAoCABBYEHwcLKwQCHwgCgIAEZGQUKwEDZmZmFgJmD2QWQGYPD2QWBB4Kb25tb3VzZW91dAUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNiceC29ubW91c2VvdmVyBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJ2QCAQ8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgZmDw8WAh4EVGV4dAUEMzQxMGRkAgEPDxYCHwsFEuaJv+WMheW3peeoi+i/m+WPo2RkAgIPDxYCHwsFHuWvueWkluaJv+WMheW3peeoi+i/m+WPo+eJqei1hGRkAgIPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUEMzQyMmRkAgEPDxYCHwsFEuWvueWkluaJv+WMheWHuuWPo2RkAgIPDxYCHwsFHuWvueWkluaJv+WMheW3peeoi+WHuuWPo+eJqei1hGRkAgMPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUEMzUxMWRkAgEPDxYCHwsFDOaPtOWKqeeJqei1hGRkAgIPDxYCHwsFJ+WbveWutuWSjOWbvemZhee7hOe7h+aXoOWBv+aPtOWKqeeJqei1hGRkAgQPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUEMzYxMWRkAgEPDxYCHwsFDOaXoOWBv+WGm+aPtGRkAgIPDxYCHwsFDOaXoOWBv+WGm+aPtGRkAgUPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUEMzYxMmRkAgEPDxYCHwsFDOaNkOi1oOeJqei1hGRkAgIPDxYCHwsFFei/m+WHuuWPo+aNkOi1oOeJqei1hGRkAgYPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUEMzkxMGRkAgEPDxYCHwsFDOWGm+S6i+ijheWkh2RkAgIPDxYCHwsFDeWGm+S6i+ijheWkhyBkZAIHDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBmYPDxYCHwsFBDQwMTlkZAIBDw8WAh8LBQzovrnlooPlsI/pop1kZAICDw8WAh8LBSzovrnlooPlsI/pop3otLjmmJMo6L655rCR5LqS5biC6LS45piT6Zmk5aSWKWRkAggPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDAzOWRkAgEPDxYCHwsFDOWvueWPsOWwj+minWRkAgIPDxYCHwsFEuWvueWPsOWwj+minei0uOaYk2RkAgkPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDEzOWRkAgEPDxYCHwsFHuWvueWPsOWwj+mineWVhuWTgeS6pOaYk+W4guWcumRkAgIPDxYCHwsFM+i/m+WFpeWvueWPsOWwj+mineWVhuWTgeS6pOaYk+S4k+eUqOW4guWcuueahOi0p+eJqWRkAgoPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDIwMGRkAgEPDxYCHwsFEumpu+WkluacuuaehOi/kOWbnmRkAgIPDxYCHwsFJOaIkempu+WkluacuuaehOi/kOWbnuaXp+WFrOeUqOeJqeWTgWRkAgsPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDIzOWRkAgEPDxYCHwsFEumpu+WkluacuuaehOi0rei/m2RkAgIPDxYCHwsFM+aIkempu+WkluacuuaehOWig+Wklui0reS5sOi/kOWbnuWbveeahOWFrOWKoeeUqOWTgWRkAgwPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDQwMGRkAgEPDxYCHwsFEuadpeaWmeaIkOWTgemAgOaNomRkAgIPDxYCHwsFGOadpeaWmeWKoOW3peaIkOWTgemAgOaNomRkAg0PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDUwMGRkAgEPDxYCHwsFDOebtOaOpemAgOi/kGRkAgIPDxYCHwsFDOebtOaOpemAgOi/kGRkAg4PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDUzOWRkAgEPDxYCHwsFD+i/m+WPo+a6ouivr+WNuGRkAgIPDxYCHwsFG+i/m+WPo+a6ouWNuOOAgeivr+WNuOi0p+eJqWRkAg8PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDU2MWRkAgEPDxYCHwsFDOmAgOi/kOi0p+eJqWRkAgIPDxYCHwsFPOWboOi0qOmHj+S4jeespuOAgeW7tuivr+S6pOi0p+etieWOn+WboOmAgOi/kOi/m+WHuuWig+i0p+eJqWRkAhAPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENDYwMGRkAgEPDxYCHwsFEui/m+aWmeaIkOWTgemAgOaNomRkAgIPDxYCHwsFEui/m+aWmeaIkOWTgemAgOaNomRkAhEPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTAwMGRkAgEPDxYCHwsFD+aWmeS7tui/m+WHuuWMumRkAgIPDxYCHwsFJOaWmeS7tui/m+WHuua1t+WFs+eJueauiuebkeeuoeWMuuWfn2RkAhIPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTAxMGRkAgEPDxYCHwsFGOeJueauiuWMuuWfn+eglOWPkei0p+eJqWRkAgIPDxYCHwsFPOa1t+WFs+eJueauiuebkeeuoeWMuuWfn+S4juWig+WkluS5i+mXtOi/m+WHuueahOeglOWPkei0p+eJqWRkAhMPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTAxNGRkAgEPDxYCHwsFEuWMuuWGheadpeaWmeWKoOW3pWRkAgIPDxYCHwsFQua1t+WFs+eJueauiuebkeeuoeWMuuWfn+S4juWig+WkluS5i+mXtOi/m+WHuueahOadpeaWmeWKoOW3pei0p+eJqWRkAhQPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTAxNWRkAgEPDxYCHwsFGOWMuuWGhei/m+aWmeWKoOW3pei0p+eJqWRkAgIPDxYCHwsFQua1t+WFs+eJueauiuebkeeuoeWMuuWfn+S4juWig+WkluS5i+mXtOi/m+WHuueahOi/m+aWmeWKoOW3pei0p+eJqWRkAhUPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTAzM2RkAgEPDxYCHwsFEuWMuuWGheS7k+WCqOi0p+eJqWRkAgIPDxYCHwsFMOWKoOW3peWMuuWGheS7k+WCqOS8geS4muS7juWig+Wklui/m+WPo+eahOi0p+eJqWRkAhYPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTAzNGRkAgEPDxYCHwsFEuWMuuWGheeJqea1gei0p+eJqWRkAgIPDxYCHwsFPOa1t+WFs+eJueauiuebkeeuoeWMuuWfn+S4juWig+WkluS5i+mXtOi/m+WHuueahOeJqea1gei0p+eJqWRkAhcPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTEwMGRkAgEPDxYCHwsFD+aIkOWTgei/m+WHuuWMumRkAgIPDxYCHwsFJOaIkOWTgei/m+WHuua1t+WFs+eJueauiuebkeeuoeWMuuWfn2RkAhgPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTIwMGRkAgEPDxYCHwsFEuWMuuWGhei+ueinkuiwg+WHumRkAgIPDxYCHwsFJ+eUqOS6juWMuuWGheWklumdnuWunumZhei/m+WHuuWig+i0p+eJqWRkAhkPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTMwMGRkAgEPDxYCHwsFD+iuvuWkh+i/m+WHuuWMumRkAgIPDxYCHwsFLeiuvuWkh+WPiueJqei1hOi/m+WHuua1t+WFs+eJueauiuebkeeuoeWMuuWfn2RkAhoPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTMzNWRkAgEPDxYCHwsFEuWig+WkluiuvuWkh+i/m+WMumRkAgIPDxYCHwsFOea1t+WFs+eJueauiuebkeeuoeWMuuWfn+S7juWig+Wklui/m+WPo+eahOiuvuWkh+WPiueJqei1hGRkAhsPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENTM2MWRkAgEPDxYCHwsFEuWMuuWGheiuvuWkh+mAgOi/kGRkAgIPDxYCHwsFM+a1t+WFs+eJueauiuebkeeuoeWMuuWfn+iuvuWkh+WPiueJqei1hOmAgOi/kOWig+WklmRkAhwPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUENjAzM2RkAgEPDxYCHwsFG+eJqea1geS4reW/g+i/m+WHuuWig+i0p+eJqWRkAgIPDxYCHwsFM+S/neeojueJqea1geS4reW/g+S4juWig+WkluS5i+mXtOi/m+WHuuS7k+WCqOi0p+eJqWRkAh0PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUEOTYwMGRkAgEPDxYCHwsFGOWGhei0uOi0p+eJqei3qOWig+i/kOi+k2RkAgIPDxYCHwsFGOWGhei0uOi0p+eJqei3qOWig+i/kOi+k2RkAh4PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYGZg8PFgIfCwUEOTYzOWRkAgEPDxYCHwsFEua1t+WFs+WkhOeQhui0p+eJqWRkAgIPDxYCHwsFPOa1t+WFs+WPmOWNluWkhOeQhueahOi2heacn+acquaKpei0p+eJqeOAgei1sOengei/neinhOi0p+eJqWRkAh8PDxYCHgdWaXNpYmxlaBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnZAIJDw8WCB4LUmVjb3JkQ291bnQCXx8MZx4JUGFnZUNvdW50AgQeCVBhZ2VJbmRleAICZBYCZg9kFgJmD2QWBmYPZBYIAgEPDxYCHwsFAjk1ZGQCAw8PFgIfCwUCMzBkZAIFDw8WAh8LBQEzZGQCBw8PFgIfCwUBNGRkAgEPD2QWAh4Fc3R5bGUFFnZlcnRpY2FsLWFsaWduOmNlbnRlcjtkAgIPZBYCAgIPDxYCHg1PbkNsaWVudENsaWNrBaAEIHZhciBibCA9IHRydWU7IHZhciBpbnB1dFZhbCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdEZWx1eGVQYWdlcjFfdHh0R290bycpLnZhbHVlOyAgdmFyIHBhZ2VDb3VudCA9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ0RlbHV4ZVBhZ2VyMV90eHRQYWdlQ291bnQnKS52YWx1ZTsgaWYocGFnZUNvdW50Lmxlbmd0aD09MCkgYmw9IGZhbHNlO3ZhciBvbmVDaGFyO2lucHV0U3RyPWlucHV0VmFsLnRvU3RyaW5nKCk7Zm9yICh2YXIgaT0wO2k8aW5wdXRTdHIubGVuZ3RoO2krKyl7b25lQ2hhcj1pbnB1dFN0ci5jaGFyQXQoaSk7aWYgKG9uZUNoYXI8JzAnIHx8IG9uZUNoYXI+JzknKXsgYWxlcnQoJ+mdnuazleWtl+espu+8jOivt+i+k+WFpeaVtOaVsOaVsOWtlycpO2JsPSBmYWxzZTticmVhazt9fSBpZigoaW5wdXRWYWwtcGFnZUNvdW50KT4wIHx8IGlucHV0VmFsPDEpe2FsZXJ0KCfmsqHmnInmraTpobXnoIHvvIzor7fovpPlhaUx77yNJyArIHBhZ2VDb3VudCArICfkuYvpl7TnmoTmlbDlrZcnKTtibD0gZmFsc2U7fSBpZighYmwpcmV0dXJuIGZhbHNlO2RkGAEFCUdyaWRWaWV3MQ88KwAKAQgCAWSh/fIpjcrbxYV9rNBk5RV7FbFrjQ==" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgK14aqBCwKTyc6bDAL7y77eAwKmh6bCAwL6n//YBwKLrLXrBwL30MDADQKulsmPBgKtsPm9BALo3dmVBJ4vhfWF6xCzwYOcJTEwqqV7+Sm5" />
+        <div>
+            <table width="776"cellpadding="0" cellspacing="0" style="height:100%">
+             
+                <tr>
+                    <td  valign="top" style="height:100%">
+                        <input name="hiddenTableID" type="hidden" id="hiddenTableID" />
+                        <table align="center" cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 30px" align="center" class="title-list">
+                                    <label id="titleLabel">贸易方式代码表</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                   <a id="linkButtonCscxShow" href="javascript:__doPostBack('linkButtonCscxShow','')">参数表说明</a>
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <input type="button" value="返回至通关参数查询" onclick="onBackClick()" class="flatButton"/> 
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" colspan="2">
+                                    <div>
+	<table cellspacing="0" cellpadding="1" rules="all" border="0" id="GridView1" width="100%">
+		<tr class="grid-head" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<th align="center" scope="col">贸易方式代码</th><th align="center" scope="col">贸易方式简称</th><th align="center" scope="col">贸易方式全称</th>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">3410</td><td align="center">承包工程进口</td><td align="center">对外承包工程进口物资</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">3422</td><td align="center">对外承包出口</td><td align="center">对外承包工程出口物资</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">3511</td><td align="center">援助物资</td><td align="center">国家和国际组织无偿援助物资</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">3611</td><td align="center">无偿军援</td><td align="center">无偿军援</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">3612</td><td align="center">捐赠物资</td><td align="center">进出口捐赠物资</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">3910</td><td align="center">军事装备</td><td align="center">军事装备 </td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4019</td><td align="center">边境小额</td><td align="center">边境小额贸易(边民互市贸易除外)</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4039</td><td align="center">对台小额</td><td align="center">对台小额贸易</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4139</td><td align="center">对台小额商品交易市场</td><td align="center">进入对台小额商品交易专用市场的货物</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4200</td><td align="center">驻外机构运回</td><td align="center">我驻外机构运回旧公用物品</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4239</td><td align="center">驻外机构购进</td><td align="center">我驻外机构境外购买运回国的公务用品</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4400</td><td align="center">来料成品退换</td><td align="center">来料加工成品退换</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4500</td><td align="center">直接退运</td><td align="center">直接退运</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4539</td><td align="center">进口溢误卸</td><td align="center">进口溢卸、误卸货物</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4561</td><td align="center">退运货物</td><td align="center">因质量不符、延误交货等原因退运进出境货物</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">4600</td><td align="center">进料成品退换</td><td align="center">进料成品退换</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5000</td><td align="center">料件进出区</td><td align="center">料件进出海关特殊监管区域</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5010</td><td align="center">特殊区域研发货物</td><td align="center">海关特殊监管区域与境外之间进出的研发货物</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5014</td><td align="center">区内来料加工</td><td align="center">海关特殊监管区域与境外之间进出的来料加工货物</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5015</td><td align="center">区内进料加工货物</td><td align="center">海关特殊监管区域与境外之间进出的进料加工货物</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5033</td><td align="center">区内仓储货物</td><td align="center">加工区内仓储企业从境外进口的货物</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5034</td><td align="center">区内物流货物</td><td align="center">海关特殊监管区域与境外之间进出的物流货物</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5100</td><td align="center">成品进出区</td><td align="center">成品进出海关特殊监管区域</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5200</td><td align="center">区内边角调出</td><td align="center">用于区内外非实际进出境货物</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5300</td><td align="center">设备进出区</td><td align="center">设备及物资进出海关特殊监管区域</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5335</td><td align="center">境外设备进区</td><td align="center">海关特殊监管区域从境外进口的设备及物资</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5361</td><td align="center">区内设备退运</td><td align="center">海关特殊监管区域设备及物资退运境外</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">6033</td><td align="center">物流中心进出境货物</td><td align="center">保税物流中心与境外之间进出仓储货物</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">9600</td><td align="center">内贸货物跨境运输</td><td align="center">内贸货物跨境运输</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">9639</td><td align="center">海关处理货物</td><td align="center">海关变卖处理的超期未报货物、走私违规货物</td>
+		</tr>
+	</table>
+</div>
+                                
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <span id="DeluxePager1" class="grid-color03" style="display:inline-block;"><table id="DeluxePager1_pagerTable" border="0" width="100%">
+	<tr id="DeluxePager1_pagerRow">
+		<td style="text-align:left;">&nbsp;&nbsp;总记录数<span>95</span>&nbsp;&nbsp;<span>30</span>/页&nbsp;&nbsp;第<span>3</span>页/共<span>4</span>页&nbsp;&nbsp;&nbsp;&nbsp;</td><td id="DeluxePager1_cellPager" style="vertical-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnFirst" href="javascript:__doPostBack('DeluxePager1$lbtnFirst','')">第一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnPrev" href="javascript:__doPostBack('DeluxePager1$lbtnPrev','')">上一页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnNext" href="javascript:__doPostBack('DeluxePager1$lbtnNext','')">下一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnLast" href="javascript:__doPostBack('DeluxePager1$lbtnLast','')">最后一页</a>&nbsp;&nbsp;</td><td style="text-align:right;"><input name="DeluxePager1$txtGoto" type="text" value="3" id="DeluxePager1_txtGoto" style="" />&nbsp;<input type="submit" name="DeluxePager1$ctl04" value="跳转到" onclick=" var bl = true; var inputVal = document.getElementById('DeluxePager1_txtGoto').value;  var pageCount =document.getElementById('DeluxePager1_txtPageCount').value; if(pageCount.length==0) bl= false;var oneChar;inputStr=inputVal.toString();for (var i=0;i&lt;inputStr.length;i++){oneChar=inputStr.charAt(i);if (oneChar&lt;'0' || oneChar>'9'){ alert('非法字符，请输入整数数字');bl= false;break;}} if((inputVal-pageCount)>0 || inputVal&lt;1){alert('没有此页码，请输入1－' + pageCount + '之间的数字');bl= false;} if(!bl)return false;" />&nbsp;&nbsp;<input name="DeluxePager1$txtPageCount" type="hidden" id="DeluxePager1_txtPageCount" value="4" /></td>
+	</tr>
+</table></span>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </form>
+</body>
+</html>

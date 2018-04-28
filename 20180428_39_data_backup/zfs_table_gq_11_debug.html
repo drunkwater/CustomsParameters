@@ -1,0 +1,135 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	通关参数查询2
+</title><link href="../Css/page.css" rel="stylesheet" type="text/css" />
+       <script type="text/javascript">
+    function onBackClick()
+    {
+        try
+        {
+            var strLink = "CscxMsList.aspx";
+            window.location.replace(strLink);
+        }
+        catch(e)
+        {
+            showError(e);
+        }
+    }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="CscxListView.aspx?tableName=zfs_table_gq" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NDU1Njc2Mw8WBB4JVGFibGVOYW1lBQx6ZnNfdGFibGVfZ3EeBlBhZ2VObwIZFgICAw9kFgYCAw8WAh4JaW5uZXJodG1sBQ/lhbPljLrku6PnoIHooahkAgcPPCsADQIADxYEHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50Ah5kAQ8UKwACFCsABRYEHgpIZWFkZXJUZXh0BQzlhbPljLrku6PnoIEeCURhdGFGaWVsZAUFZ3Ffbm8WBB4PSG9yaXpvbnRhbEFsaWduCyopU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5Ib3Jpem9udGFsQWxpZ24CHgRfIVNCAoCABBYEHwcLKwQCHwgCgIAEZGQUKwAFFgQfBQUM5YWz5Yy65ZCN56ewHwYFCGdxX3NuYW1lFgQfBwsrBAIfCAKAgAQWBB8HCysEAh8IAoCABGRkFCsBAmZmFgJmD2QWQGYPD2QWBB4Kb25tb3VzZW91dAUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNiceC29ubW91c2VvdmVyBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJ2QCAQ8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh4EVGV4dAUENTMwNGRkAgEPDxYCHwsFDOibh+WPo+a1t+WFs2RkAgIPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMwNWRkAgEPDxYCHwsFDOa3seWFs+eOsOWcumRkAgMPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMwNmRkAgEPDxYCHwsFDOesi+Wyl+a1t+WFs2RkAgQPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMwN2RkAgEPDxYCHwsFDOWNl+WktOa1t+WFs2RkAgUPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMwOGRkAgEPDxYCHwsFDOaymea5vua1t+WFs2RkAgYPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMwOWRkAgEPDxYCHwsFDOW4g+WQiea1t+WFs2RkAgcPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxMGRkAgEPDxYCHwsFCea3oeawtOWKnmRkAggPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxMWRkAgEPDxYCHwsFDOa3seWFs+i9puermWRkAgkPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxMmRkAgEPDxYCHwsFDOa3seebkeeuoeWkhGRkAgoPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxM2RkAgEPDxYCHwsFDOa3seiwg+afpeWxgGRkAgsPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxNGRkAgEPDxYCHwsFDOa3seWFs+mCruWKnmRkAgwPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxNWRkAgEPDxYCHwsFDOaDoOS4nOa1t+WFs2RkAg0PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxNmRkAgEPDxYCHwsFDOWkp+m5j+a1t+WFs2RkAg4PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxN2RkAgEPDxYCHwsFDOa3seWFs+acuuWcumRkAg8PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxOGRkAgEPDxYCHwsFDOaiheael+a1t+WFs2RkAhAPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMxOWRkAgEPDxYCHwsFDOWQjOS5kOa1t+WFs2RkAhEPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyMGRkAgEPDxYCHwsFDOaWh+mUpua4oeWFs2RkAhIPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyMWRkAgEPDxYCHwsFDOemj+S/neeojuWFs2RkAhMPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyMmRkAgEPDxYCHwsFDOaymeS/neeojuWFs2RkAhQPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyM2RkAgEPDxYCHwsFDOa3seWuoeWNleWkhGRkAhUPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyNGRkAgEPDxYCHwsFDOa3seWuoeS7t+WKnmRkAhYPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyNWRkAgEPDxYCHwsFDOa3seWFs+eojuWkhGRkAhcPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyNmRkAgEPDxYCHwsFDOa3seaVsOe7n+WkhGRkAhgPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyN2RkAgEPDxYCHwsFDOa3seazleinhOWkhGRkAhkPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyOGRkAgEPDxYCHwsFDOa3seinhOiMg+WkhGRkAhoPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMyOWRkAgEPDxYCHwsFDOa3seS/neeojuWkhGRkAhsPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMzMGRkAgEPDxYCHwsFDOebkOS/neeojuWFs2RkAhwPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMzMWRkAgEPDxYCHwsFDOS4iemXqOWym+WKnmRkAh0PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMzMmRkAgEPDxYCHwsFDOa3sei0ouWKoeWkhGRkAh4PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUENTMzM2RkAgEPDxYCHwsFDOa3seS+puafpeWxgGRkAh8PDxYCHgdWaXNpYmxlaBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnZAIJDw8WCB4LUmVjb3JkQ291bnQClAgfDGceCVBhZ2VDb3VudAIjHglQYWdlSW5kZXgCGGQWAmYPZBYCZg9kFgZmD2QWCAIBDw8WAh8LBQQxMDQ0ZGQCAw8PFgIfCwUCMzBkZAIFDw8WAh8LBQIyNWRkAgcPDxYCHwsFAjM1ZGQCAQ8PZBYCHgVzdHlsZQUWdmVydGljYWwtYWxpZ246Y2VudGVyO2QCAg9kFgICAg8PFgIeDU9uQ2xpZW50Q2xpY2sFoAQgdmFyIGJsID0gdHJ1ZTsgdmFyIGlucHV0VmFsID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ0RlbHV4ZVBhZ2VyMV90eHRHb3RvJykudmFsdWU7ICB2YXIgcGFnZUNvdW50ID1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnRGVsdXhlUGFnZXIxX3R4dFBhZ2VDb3VudCcpLnZhbHVlOyBpZihwYWdlQ291bnQubGVuZ3RoPT0wKSBibD0gZmFsc2U7dmFyIG9uZUNoYXI7aW5wdXRTdHI9aW5wdXRWYWwudG9TdHJpbmcoKTtmb3IgKHZhciBpPTA7aTxpbnB1dFN0ci5sZW5ndGg7aSsrKXtvbmVDaGFyPWlucHV0U3RyLmNoYXJBdChpKTtpZiAob25lQ2hhcjwnMCcgfHwgb25lQ2hhcj4nOScpeyBhbGVydCgn6Z2e5rOV5a2X56ym77yM6K+36L6T5YWl5pW05pWw5pWw5a2XJyk7Ymw9IGZhbHNlO2JyZWFrO319IGlmKChpbnB1dFZhbC1wYWdlQ291bnQpPjAgfHwgaW5wdXRWYWw8MSl7YWxlcnQoJ+ayoeacieatpOmhteegge+8jOivt+i+k+WFpTHvvI0nICsgcGFnZUNvdW50ICsgJ+S5i+mXtOeahOaVsOWtlycpO2JsPSBmYWxzZTt9IGlmKCFibClyZXR1cm4gZmFsc2U7ZGQYAQUJR3JpZFZpZXcxDzwrAAoBCAIBZN8xpaH0GcxJfkXNKRFmPpdcFpHx" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgK57eGnCwKTyc6bDAL7y77eAwKmh6bCAwL6n//YBwKLrLXrBwL30MDADQKulsmPBgKtsPm9BALo3dmVBEmr/q8yWVdl3w4IPoex6P6BGVnX" />
+        <div>
+            <table width="776"cellpadding="0" cellspacing="0" style="height:100%">
+             
+                <tr>
+                    <td  valign="top" style="height:100%">
+                        <input name="hiddenTableID" type="hidden" id="hiddenTableID" />
+                        <table align="center" cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 30px" align="center" class="title-list">
+                                    <label id="titleLabel">关区代码表</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                   <a id="linkButtonCscxShow" href="javascript:__doPostBack('linkButtonCscxShow','')">参数表说明</a>
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <input type="button" value="返回至通关参数查询" onclick="onBackClick()" class="flatButton"/> 
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" colspan="2">
+                                    <div>
+	<table cellspacing="0" cellpadding="1" rules="all" border="0" id="GridView1" width="100%">
+		<tr class="grid-head" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<th align="center" scope="col">关区代码</th><th align="center" scope="col">关区名称</th>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5304</td><td align="center">蛇口海关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5305</td><td align="center">深关现场</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5306</td><td align="center">笋岗海关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5307</td><td align="center">南头海关</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5308</td><td align="center">沙湾海关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5309</td><td align="center">布吉海关</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5310</td><td align="center">淡水办</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5311</td><td align="center">深关车站</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5312</td><td align="center">深监管处</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5313</td><td align="center">深调查局</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5314</td><td align="center">深关邮办</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5315</td><td align="center">惠东海关</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5316</td><td align="center">大鹏海关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5317</td><td align="center">深关机场</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5318</td><td align="center">梅林海关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5319</td><td align="center">同乐海关</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5320</td><td align="center">文锦渡关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5321</td><td align="center">福保税关</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5322</td><td align="center">沙保税关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5323</td><td align="center">深审单处</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5324</td><td align="center">深审价办</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5325</td><td align="center">深关税处</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5326</td><td align="center">深数统处</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5327</td><td align="center">深法规处</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5328</td><td align="center">深规范处</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5329</td><td align="center">深保税处</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5330</td><td align="center">盐保税关</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5331</td><td align="center">三门岛办</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5332</td><td align="center">深财务处</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">5333</td><td align="center">深侦查局</td>
+		</tr>
+	</table>
+</div>
+                                
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <span id="DeluxePager1" class="grid-color03" style="display:inline-block;"><table id="DeluxePager1_pagerTable" border="0" width="100%">
+	<tr id="DeluxePager1_pagerRow">
+		<td style="text-align:left;">&nbsp;&nbsp;总记录数<span>1044</span>&nbsp;&nbsp;<span>30</span>/页&nbsp;&nbsp;第<span>25</span>页/共<span>35</span>页&nbsp;&nbsp;&nbsp;&nbsp;</td><td id="DeluxePager1_cellPager" style="vertical-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnFirst" href="javascript:__doPostBack('DeluxePager1$lbtnFirst','')">第一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnPrev" href="javascript:__doPostBack('DeluxePager1$lbtnPrev','')">上一页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnNext" href="javascript:__doPostBack('DeluxePager1$lbtnNext','')">下一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnLast" href="javascript:__doPostBack('DeluxePager1$lbtnLast','')">最后一页</a>&nbsp;&nbsp;</td><td style="text-align:right;"><input name="DeluxePager1$txtGoto" type="text" value="25" id="DeluxePager1_txtGoto" style="" />&nbsp;<input type="submit" name="DeluxePager1$ctl04" value="跳转到" onclick=" var bl = true; var inputVal = document.getElementById('DeluxePager1_txtGoto').value;  var pageCount =document.getElementById('DeluxePager1_txtPageCount').value; if(pageCount.length==0) bl= false;var oneChar;inputStr=inputVal.toString();for (var i=0;i&lt;inputStr.length;i++){oneChar=inputStr.charAt(i);if (oneChar&lt;'0' || oneChar>'9'){ alert('非法字符，请输入整数数字');bl= false;break;}} if((inputVal-pageCount)>0 || inputVal&lt;1){alert('没有此页码，请输入1－' + pageCount + '之间的数字');bl= false;} if(!bl)return false;" />&nbsp;&nbsp;<input name="DeluxePager1$txtPageCount" type="hidden" id="DeluxePager1_txtPageCount" value="35" /></td>
+	</tr>
+</table></span>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </form>
+</body>
+</html>

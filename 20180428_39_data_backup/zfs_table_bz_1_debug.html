@@ -1,0 +1,123 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	通关参数查询2
+</title><link href="../Css/page.css" rel="stylesheet" type="text/css" />
+       <script type="text/javascript">
+    function onBackClick()
+    {
+        try
+        {
+            var strLink = "CscxMsList.aspx";
+            window.location.replace(strLink);
+        }
+        catch(e)
+        {
+            showError(e);
+        }
+    }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="CscxListView.aspx?tableName=zfs_table_bz" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NDU1Njc2Mw8WBB4JVGFibGVOYW1lBQx6ZnNfdGFibGVfYnoeBlBhZ2VObwIBFgICAw9kFgYCAw8WAh4JaW5uZXJodG1sBQ/luIHliLbku6PnoIHooahkAgcPPCsADQIADxYEHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AhhkAQ8UKwACFCsABRYEHgpIZWFkZXJUZXh0BQznurjluIHku6PnoIEeCURhdGFGaWVsZAUFYnpfbm8WBB4PSG9yaXpvbnRhbEFsaWduCyopU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5Ib3Jpem9udGFsQWxpZ24CHgRfIVNCAoCABBYEHwcLKwQCHwgCgIAEZGQUKwAFFgQfBQUM57q45biB5ZCN56ewHwYFB2J6X25hbWUWBB8HCysEAh8IAoCABBYEHwcLKwQCHwgCgIAEZGQUKwECZmYWAmYPZBY0Zg8PZBYEHgpvbm1vdXNlb3V0BS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx4Lb25tb3VzZW92ZXIFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnZAIBDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHgRUZXh0BQMxMTBkZAIBDw8WAh8LBQbmuK/luIFkZAICDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2ZmZmZmZicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzExNmRkAgEPDxYCHwsFCeaXpeacrOWFg2RkAgMPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDMTIxZGQCAQ8PFgIfCwUJ5r6z6Zeo5YWDZGQCBA8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh8LBQMxMjlkZAIBDw8WAh8LBQ/oj7Llvovlrr7mr5TntKJkZAIFDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzEzMmRkAgEPDxYCHwsFDOaWsOWKoOWdoeWFg2RkAgYPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDMTM2ZGQCAQ8PFgIfCwUJ5rOw5Zu96ZOiZGQCBw8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh8LBQMxNDJkZAIBDw8WAh8LBQnkurrmsJHluIFkZAIIDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2ZmZmZmZicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzMwMGRkAgEPDxYCHwsFBuasp+WFg2RkAgkPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDMzAyZGQCAQ8PFgIfCwUM5Li56bqm5YWL5pyXZGQCCg8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh8LBQMzMDNkZAIBDw8WAh8LBQboi7HplZFkZAILDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzMwNGRkAgEPDxYCHwsFDOW+t+WbvemprOWFi2RkAgwPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDMzA1ZGQCAQ8PFgIfCwUM5rOV5Zu95rOV6YOOZGQCDQ8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh8LBQMzMDdkZAIBDw8WAh8LBQ/mhI/lpKfliKnph4zmi4lkZAIODw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2ZmZmZmZicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzMxMmRkAgEPDxYCHwsFEuilv+ePreeJmeavlOi1m+WhlGRkAg8PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDMzE1ZGQCAQ8PFgIfCwUP5aWl5Zyw5Yip5YWI5LukZGQCEA8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh8LBQMzMThkZAIBDw8WAh8LBQzoiqzlhbDpqazlhYtkZAIRDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzMyNmRkAgEPDxYCHwsFDOaMquWogeWFi+acl2RkAhIPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDMzMwZGQCAQ8PFgIfCwUM55Ge5YW45YWL5pyXZGQCEw8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh8LBQMzMzFkZAIBDw8WAh8LBQznkZ7lo6vms5Xpg45kZAIUDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2ZmZmZmZicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzM5OGRkAgEPDxYCHwsFEua4heeul+eRnuWjq+azlemDjmRkAhUPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDNTAxZGQCAQ8PFgIfCwUM5Yqg5ou/5aSn5YWDZGQCFg8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFgRmDw8WAh8LBQM1MDJkZAIBDw8WAh8LBQbnvo7lhYNkZAIXDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWBGYPDxYCHwsFAzYwMWRkAgEPDxYCHwsFD+a+s+Wkp+WIqeS6muWFg2RkAhgPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYEZg8PFgIfCwUDNjA5ZGQCAQ8PFgIfCwUM5paw6KW/5YWw5YWDZGQCGQ8PFgIeB1Zpc2libGVoFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZSdkAgkPDxYIHgtSZWNvcmRDb3VudAIYHwxnHglQYWdlQ291bnQCAR4JUGFnZUluZGV4ZmQWAmYPZBYCZg9kFgQCAQ8PZBYCHgVzdHlsZQUWdmVydGljYWwtYWxpZ246Y2VudGVyO2QCAg9kFgRmDw8WAh4HRW5hYmxlZGhkZAICDw8WBB4NT25DbGllbnRDbGljawWgBCB2YXIgYmwgPSB0cnVlOyB2YXIgaW5wdXRWYWwgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnRGVsdXhlUGFnZXIxX3R4dEdvdG8nKS52YWx1ZTsgIHZhciBwYWdlQ291bnQgPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdEZWx1eGVQYWdlcjFfdHh0UGFnZUNvdW50JykudmFsdWU7IGlmKHBhZ2VDb3VudC5sZW5ndGg9PTApIGJsPSBmYWxzZTt2YXIgb25lQ2hhcjtpbnB1dFN0cj1pbnB1dFZhbC50b1N0cmluZygpO2ZvciAodmFyIGk9MDtpPGlucHV0U3RyLmxlbmd0aDtpKyspe29uZUNoYXI9aW5wdXRTdHIuY2hhckF0KGkpO2lmIChvbmVDaGFyPCcwJyB8fCBvbmVDaGFyPic5Jyl7IGFsZXJ0KCfpnZ7ms5XlrZfnrKbvvIzor7fovpPlhaXmlbTmlbDmlbDlrZcnKTtibD0gZmFsc2U7YnJlYWs7fX0gaWYoKGlucHV0VmFsLXBhZ2VDb3VudCk+MCB8fCBpbnB1dFZhbDwxKXthbGVydCgn5rKh5pyJ5q2k6aG156CB77yM6K+36L6T5YWlMe+8jScgKyBwYWdlQ291bnQgKyAn5LmL6Ze055qE5pWw5a2XJyk7Ymw9IGZhbHNlO30gaWYoIWJsKXJldHVybiBmYWxzZTsfEWhkZBgBBQlHcmlkVmlldzEPPCsACgEIAgFk8Xptn3agJdtkIcVfjYwdCEuHnY0=" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBgKT+rCmDgKTyc6bDAL7y77eAwKulsmPBgKtsPm9BALo3dmVBMlB8n8G7nQoLKuP1NF2k0c/Luot" />
+        <div>
+            <table width="776"cellpadding="0" cellspacing="0" style="height:100%">
+             
+                <tr>
+                    <td  valign="top" style="height:100%">
+                        <input name="hiddenTableID" type="hidden" id="hiddenTableID" />
+                        <table align="center" cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 30px" align="center" class="title-list">
+                                    <label id="titleLabel">币制代码表</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                   <a id="linkButtonCscxShow" href="javascript:__doPostBack('linkButtonCscxShow','')">参数表说明</a>
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <input type="button" value="返回至通关参数查询" onclick="onBackClick()" class="flatButton"/> 
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" colspan="2">
+                                    <div>
+	<table cellspacing="0" cellpadding="1" rules="all" border="0" id="GridView1" width="100%">
+		<tr class="grid-head" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<th align="center" scope="col">纸币代码</th><th align="center" scope="col">纸币名称</th>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">110</td><td align="center">港币</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">116</td><td align="center">日本元</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">121</td><td align="center">澳门元</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">129</td><td align="center">菲律宾比索</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">132</td><td align="center">新加坡元</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">136</td><td align="center">泰国铢</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">142</td><td align="center">人民币</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">300</td><td align="center">欧元</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">302</td><td align="center">丹麦克朗</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">303</td><td align="center">英镑</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">304</td><td align="center">德国马克</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">305</td><td align="center">法国法郎</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">307</td><td align="center">意大利里拉</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">312</td><td align="center">西班牙比赛塔</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">315</td><td align="center">奥地利先令</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">318</td><td align="center">芬兰马克</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">326</td><td align="center">挪威克朗</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">330</td><td align="center">瑞典克朗</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">331</td><td align="center">瑞士法郎</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">398</td><td align="center">清算瑞士法郎</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">501</td><td align="center">加拿大元</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">502</td><td align="center">美元</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">601</td><td align="center">澳大利亚元</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">609</td><td align="center">新西兰元</td>
+		</tr>
+	</table>
+</div>
+                                
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <span id="DeluxePager1" class="grid-color03" style="display:inline-block;"><table id="DeluxePager1_pagerTable" border="0" width="100%">
+	<tr id="DeluxePager1_pagerRow">
+		<td style="text-align:left;">&nbsp;&nbsp;总记录数<span>24</span>&nbsp;&nbsp;<span>30</span>/页&nbsp;&nbsp;第<span>1</span>页/共<span>1</span>页&nbsp;&nbsp;&nbsp;&nbsp;</td><td id="DeluxePager1_cellPager" style="vertical-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnFirst" disabled="disabled">第一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnPrev" disabled="disabled">上一页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnNext" disabled="disabled">下一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnLast" disabled="disabled">最后一页</a>&nbsp;&nbsp;</td><td style="text-align:right;"><input name="DeluxePager1$txtGoto" type="text" value="1" id="DeluxePager1_txtGoto" disabled="disabled" style="" />&nbsp;<input type="submit" name="DeluxePager1$ctl04" value="跳转到" disabled="disabled" />&nbsp;&nbsp;<input name="DeluxePager1$txtPageCount" type="hidden" id="DeluxePager1_txtPageCount" value="1" /></td>
+	</tr>
+</table></span>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,135 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	通关参数查询2
+</title><link href="../Css/page.css" rel="stylesheet" type="text/css" />
+       <script type="text/javascript">
+    function onBackClick()
+    {
+        try
+        {
+            var strLink = "CscxMsList.aspx";
+            window.location.replace(strLink);
+        }
+        catch(e)
+        {
+            showError(e);
+        }
+    }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="CscxListView.aspx?tableName=zfs_table_gbdq" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NDU1Njc2Mw8WBB4JVGFibGVOYW1lBQ56ZnNfdGFibGVfZ2JkcR4GUGFnZU5vAggWAgIDD2QWBgIDDxYCHglpbm5lcmh0bWwFF+WbveWIqyjlnLDljLop5Luj56CB6KGoZAIHDzwrAA0CAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIeZAEPFCsABBQrAAUWBB4KSGVhZGVyVGV4dAUS5Zu95Yir5Zyw5Yy65Luj56CBHglEYXRhRmllbGQFB2diZHFfbm8WBB4PSG9yaXpvbnRhbEFsaWduCyopU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5Ib3Jpem9udGFsQWxpZ24CHgRfIVNCAoCABBYEHwcLKwQCHwgCgIAEZGQUKwAFFgQfBQUR5Lit5paH5ZCNKOeugOensCkfBgUJZ2JkcV9uYW1lFgQfBwsrBAIfCAKAgAQWBB8HCysEAh8IAoCABGRkFCsABRYEHwUFEeiLseaWh+WQjSjnroDnp7ApHwYFCmdiZHFfZW5hbWUWBB8HCysEAh8IAoCABBYEHwcLKwQCHwgCgIAEZGQUKwAFFgQfBQUN5LyYL+aZrueojueOhx8GBQdnYmRxX3VwFgQfBwsrBAIfCAKAgAQWBB8HCysEAh8IAoCABGRkFCsBBGZmZmYWAmYPZBZAZg8PZBYEHgpvbm1vdXNlb3V0BS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx4Lb25tb3VzZW92ZXIFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnZAIBDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHgRUZXh0BQM1MDFkZAIBDw8WAh8LBQnliqDmi7/lpKdkZAICDw8WAh8LBQZDYW5hZGFkZAIDDw8WAh8LBQFMZGQCAg8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFghmDw8WAh8LBQM1MDJkZAIBDw8WAh8LBQbnvo7lm71kZAICDw8WAh8LBQ1Vbml0ZWQgU3RhdGVzZGQCAw8PFgIfCwUBTGRkAgMPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNTAzZGQCAQ8PFgIfCwUJ5qC86Zm15YWwZGQCAg8PFgIfCwUJR3JlZW5sYW5kZGQCAw8PFgIfCwUBTGRkAgQPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNTA0ZGQCAQ8PFgIfCwUJ55m+5oWV5aSnZGQCAg8PFgIfCwUHQmVybXVkYWRkAgMPDxYCHwsFAUhkZAIFDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzU5OWRkAgEPDxYCHwsFHeWMl+e+jua0suWFtuS7luWbveWutijlnLDljLopZGQCAg8PFgIfCwUQT3RoLiBOLkFtZXIuIG5lc2RkAgMPDxYCHwsFBiZuYnNwO2RkAgYPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjAxZGQCAQ8PFgIfCwUM5r6z5aSn5Yip5LqaZGQCAg8PFgIfCwUJQXVzdHJhbGlhZGQCAw8PFgIfCwUBTGRkAgcPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjAyZGQCAQ8PFgIfCwUM5bqT5YWL576k5bKbZGQCAg8PFgIfCwUMQ29vayBJc2xhbmRzZGQCAw8PFgIfCwUBTGRkAggPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjAzZGQCAQ8PFgIfCwUG5paQ5rWOZGQCAg8PFgIfCwUERmlqaWRkAgMPDxYCHwsFAUxkZAIJDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzYwNGRkAgEPDxYCHwsFDOebluavlOe+pOWym2RkAgIPDxYCHwsFD0dhbWJpZXIgSXNsYW5kc2RkAgMPDxYCHwsFAUhkZAIKDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2ZmZmZmZicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzYwNWRkAgEPDxYCHwsFEumprOWFi+iQqOaWr+e+pOWym2RkAgIPDxYCHwsFEU1hcnF1ZXNhcyBJc2xhbmRzZGQCAw8PFgIfCwUBSGRkAgsPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjA2ZGQCAQ8PFgIfCwUG55GZ6bKBZGQCAg8PFgIfCwUFTmF1cnVkZAIDDw8WAh8LBQFIZGQCDA8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFghmDw8WAh8LBQM2MDdkZAIBDw8WAh8LBRLmlrDlloDph4zlpJrlsLzkuppkZAICDw8WAh8LBQ1OZXcgQ2FsZWRvbmlhZGQCAw8PFgIfCwUBTGRkAg0PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjA4ZGQCAQ8PFgIfCwUM55Om5Yqq6Zi/5Zu+ZGQCAg8PFgIfCwUHVmFudWF0dWRkAgMPDxYCHwsFAUxkZAIODw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2ZmZmZmZicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzYwOWRkAgEPDxYCHwsFCeaWsOilv+WFsGRkAgIPDxYCHwsFC05ldyBaZWFsYW5kZGQCAw8PFgIfCwUBTGRkAg8PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjEwZGQCAQ8PFgIfCwUM6K+656aP5YWL5bKbZGQCAg8PFgIfCwUOTm9yZm9sayBJc2xhbmRkZAIDDw8WAh8LBQFIZGQCEA8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFghmDw8WAh8LBQM2MTFkZAIBDw8WAh8LBRXlt7TluIPkuprmlrDlh6DlhoXkuppkZAICDw8WAh8LBRBQYXB1YSBOZXcgR3VpbmVhZGQCAw8PFgIfCwUBTGRkAhEPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjEyZGQCAQ8PFgIfCwUM56S+5Lya576k5bKbZGQCAg8PFgIfCwUPU29jaWV0eSBJc2xhbmRzZGQCAw8PFgIfCwUBSGRkAhIPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjEzZGQCAQ8PFgIfCwUP5omA572X6Zeo576k5bKbZGQCAg8PFgIfCwUPU29sb21vbiBJc2xhbmRzZGQCAw8PFgIfCwUBTGRkAhMPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjE0ZGQCAQ8PFgIfCwUG5rGk5YqgZGQCAg8PFgIfCwUFVG9uZ2FkZAIDDw8WAh8LBQFMZGQCFA8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmZmZmZmYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFghmDw8WAh8LBQM2MTVkZAIBDw8WAh8LBRLlnJ/pmL/ojqvlnJ/nvqTlsptkZAICDw8WAh8LBQ9UdWFtb3R1IElzbGFuZHNkZAIDDw8WAh8LBQFIZGQCFQ8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFghmDw8WAh8LBQM2MTZkZAIBDw8WAh8LBQ/lnJ/luIPoib7nvqTlsptkZAICDw8WAh8LBQ1UdWJhaSBJc2xhbmRzZGQCAw8PFgIfCwUBSGRkAhYPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjE3ZGQCAQ8PFgIfCwUJ6JCo5pGp5LqaZGQCAg8PFgIfCwUFU2Ftb2FkZAIDDw8WAh8LBQFMZGQCFw8PZBYEHwkFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNmN2Y2ZjYnHwoFL2phdmFzY3JpcHQ6dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNlZWVlZWUnFghmDw8WAh8LBQM2MThkZAIBDw8WAh8LBQzln7rph4zlt7Tmlq9kZAICDw8WAh8LBQhLaXJpYmF0aWRkAgMPDxYCHwsFAUhkZAIYDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2ZmZmZmZicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzYxOWRkAgEPDxYCHwsFCeWbvueTpuWNomRkAgIPDxYCHwsFBlR1dmFsdWRkAgMPDxYCHwsFAUhkZAIZDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzYyMGRkAgEPDxYCHwsFGOWvhuWFi+e9l+WwvOilv+S6muiBlOmCpmRkAgIPDxYCHwsFDk1pY3JvbmVzaWEsIEZzZGQCAw8PFgIfCwUBTGRkAhoPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjIxZGQCAQ8PFgIfCwUP6ams57uN5bCU576k5bKbZGQCAg8PFgIfCwUQTWFyc2hhbGwgSXNsYW5kc2RkAgMPDxYCHwsFAUhkZAIbDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzYyMmRkAgEPDxYCHwsFBuW4leWKs2RkAgIPDxYCHwsFBVBhbGF1ZGQCAw8PFgIfCwUBSGRkAhwPD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjIzZGQCAQ8PFgIfCwUV5rOV5bGe5rOi5Yip5bC86KW/5LqaZGQCAg8PFgIfCwUQRnJlbmNoIFBvbHluZXNpYWRkAgMPDxYCHwsFAUxkZAIdDw9kFgQfCQUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2Y3ZjZmNicfCgUvamF2YXNjcmlwdDp0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI2VlZWVlZScWCGYPDxYCHwsFAzYyNWRkAgEPDxYCHwsFFeeTpuWIqeaWr+WSjOa1ruWbvue6s2RkAgIPDxYCHwsFEVdhbGxpcyBhbmQgRnV0dW5hZGQCAw8PFgIfCwUBTGRkAh4PD2QWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZmZmZmZmJx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJxYIZg8PFgIfCwUDNjk5ZGQCAQ8PFgIfCwUd5aSn5rSL5rSy5YW25LuW5Zu95a62KOWcsOWMuilkZAICDw8WAh8LBQ9PdGguIE9jZWFuLiBuZXNkZAIDDw8WAh8LBQYmbmJzcDtkZAIfDw8WAh4HVmlzaWJsZWgWBB8JBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZjdmNmY2Jx8KBS9qYXZhc2NyaXB0OnRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjZWVlZWVlJ2QCCQ8PFggeC1JlY29yZENvdW50AvMBHwxnHglQYWdlQ291bnQCCR4JUGFnZUluZGV4AgdkFgJmD2QWAmYPZBYGZg9kFggCAQ8PFgIfCwUDMjQzZGQCAw8PFgIfCwUCMzBkZAIFDw8WAh8LBQE4ZGQCBw8PFgIfCwUBOWRkAgEPD2QWAh4Fc3R5bGUFFnZlcnRpY2FsLWFsaWduOmNlbnRlcjtkAgIPZBYCAgIPDxYCHg1PbkNsaWVudENsaWNrBaAEIHZhciBibCA9IHRydWU7IHZhciBpbnB1dFZhbCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdEZWx1eGVQYWdlcjFfdHh0R290bycpLnZhbHVlOyAgdmFyIHBhZ2VDb3VudCA9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ0RlbHV4ZVBhZ2VyMV90eHRQYWdlQ291bnQnKS52YWx1ZTsgaWYocGFnZUNvdW50Lmxlbmd0aD09MCkgYmw9IGZhbHNlO3ZhciBvbmVDaGFyO2lucHV0U3RyPWlucHV0VmFsLnRvU3RyaW5nKCk7Zm9yICh2YXIgaT0wO2k8aW5wdXRTdHIubGVuZ3RoO2krKyl7b25lQ2hhcj1pbnB1dFN0ci5jaGFyQXQoaSk7aWYgKG9uZUNoYXI8JzAnIHx8IG9uZUNoYXI+JzknKXsgYWxlcnQoJ+mdnuazleWtl+espu+8jOivt+i+k+WFpeaVtOaVsOaVsOWtlycpO2JsPSBmYWxzZTticmVhazt9fSBpZigoaW5wdXRWYWwtcGFnZUNvdW50KT4wIHx8IGlucHV0VmFsPDEpe2FsZXJ0KCfmsqHmnInmraTpobXnoIHvvIzor7fovpPlhaUx77yNJyArIHBhZ2VDb3VudCArICfkuYvpl7TnmoTmlbDlrZcnKTtibD0gZmFsc2U7fSBpZighYmwpcmV0dXJuIGZhbHNlO2RkGAEFCUdyaWRWaWV3MQ88KwAKAQgCAWQ4t+7PkrbNqRVn0BLoGHwPGvoUYg==" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgKTsuDzCgKTyc6bDAL7y77eAwKmh6bCAwL6n//YBwKLrLXrBwL30MDADQKulsmPBgKtsPm9BALo3dmVBJpLxUjHl+Z771w5jgKLO8++0C2/" />
+        <div>
+            <table width="776"cellpadding="0" cellspacing="0" style="height:100%">
+             
+                <tr>
+                    <td  valign="top" style="height:100%">
+                        <input name="hiddenTableID" type="hidden" id="hiddenTableID" />
+                        <table align="center" cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 30px" align="center" class="title-list">
+                                    <label id="titleLabel">国别(地区)代码表</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                   <a id="linkButtonCscxShow" href="javascript:__doPostBack('linkButtonCscxShow','')">参数表说明</a>
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <input type="button" value="返回至通关参数查询" onclick="onBackClick()" class="flatButton"/> 
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" colspan="2">
+                                    <div>
+	<table cellspacing="0" cellpadding="1" rules="all" border="0" id="GridView1" width="100%">
+		<tr class="grid-head" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<th align="center" scope="col">国别地区代码</th><th align="center" scope="col">中文名(简称)</th><th align="center" scope="col">英文名(简称)</th><th align="center" scope="col">优/普税率</th>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">501</td><td align="center">加拿大</td><td align="center">Canada</td><td align="center">L</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">502</td><td align="center">美国</td><td align="center">United States</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">503</td><td align="center">格陵兰</td><td align="center">Greenland</td><td align="center">L</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">504</td><td align="center">百慕大</td><td align="center">Bermuda</td><td align="center">H</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">599</td><td align="center">北美洲其他国家(地区)</td><td align="center">Oth. N.Amer. nes</td><td align="center">&nbsp;</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">601</td><td align="center">澳大利亚</td><td align="center">Australia</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">602</td><td align="center">库克群岛</td><td align="center">Cook Islands</td><td align="center">L</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">603</td><td align="center">斐济</td><td align="center">Fiji</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">604</td><td align="center">盖比群岛</td><td align="center">Gambier Islands</td><td align="center">H</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">605</td><td align="center">马克萨斯群岛</td><td align="center">Marquesas Islands</td><td align="center">H</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">606</td><td align="center">瑙鲁</td><td align="center">Nauru</td><td align="center">H</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">607</td><td align="center">新喀里多尼亚</td><td align="center">New Caledonia</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">608</td><td align="center">瓦努阿图</td><td align="center">Vanuatu</td><td align="center">L</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">609</td><td align="center">新西兰</td><td align="center">New Zealand</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">610</td><td align="center">诺福克岛</td><td align="center">Norfolk Island</td><td align="center">H</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">611</td><td align="center">巴布亚新几内亚</td><td align="center">Papua New Guinea</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">612</td><td align="center">社会群岛</td><td align="center">Society Islands</td><td align="center">H</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">613</td><td align="center">所罗门群岛</td><td align="center">Solomon Islands</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">614</td><td align="center">汤加</td><td align="center">Tonga</td><td align="center">L</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">615</td><td align="center">土阿莫土群岛</td><td align="center">Tuamotu Islands</td><td align="center">H</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">616</td><td align="center">土布艾群岛</td><td align="center">Tubai Islands</td><td align="center">H</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">617</td><td align="center">萨摩亚</td><td align="center">Samoa</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">618</td><td align="center">基里巴斯</td><td align="center">Kiribati</td><td align="center">H</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">619</td><td align="center">图瓦卢</td><td align="center">Tuvalu</td><td align="center">H</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">620</td><td align="center">密克罗尼西亚联邦</td><td align="center">Micronesia, Fs</td><td align="center">L</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">621</td><td align="center">马绍尔群岛</td><td align="center">Marshall Islands</td><td align="center">H</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">622</td><td align="center">帕劳</td><td align="center">Palau</td><td align="center">H</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">623</td><td align="center">法属波利尼西亚</td><td align="center">French Polynesia</td><td align="center">L</td>
+		</tr><tr class="grid-color01" onmouseout="javascript:this.style.backgroundColor='#f7f6f6'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">625</td><td align="center">瓦利斯和浮图纳</td><td align="center">Wallis and Futuna</td><td align="center">L</td>
+		</tr><tr class="grid-color02" onmouseout="javascript:this.style.backgroundColor='#ffffff'" onmouseover="javascript:this.style.backgroundColor='#eeeeee'">
+			<td align="center">699</td><td align="center">大洋洲其他国家(地区)</td><td align="center">Oth. Ocean. nes</td><td align="center">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+                                
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <span id="DeluxePager1" class="grid-color03" style="display:inline-block;"><table id="DeluxePager1_pagerTable" border="0" width="100%">
+	<tr id="DeluxePager1_pagerRow">
+		<td style="text-align:left;">&nbsp;&nbsp;总记录数<span>243</span>&nbsp;&nbsp;<span>30</span>/页&nbsp;&nbsp;第<span>8</span>页/共<span>9</span>页&nbsp;&nbsp;&nbsp;&nbsp;</td><td id="DeluxePager1_cellPager" style="vertical-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnFirst" href="javascript:__doPostBack('DeluxePager1$lbtnFirst','')">第一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnPrev" href="javascript:__doPostBack('DeluxePager1$lbtnPrev','')">上一页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="DeluxePager1_lbtnNext" href="javascript:__doPostBack('DeluxePager1$lbtnNext','')">下一页</a>&nbsp;&nbsp;<a id="DeluxePager1_lbtnLast" href="javascript:__doPostBack('DeluxePager1$lbtnLast','')">最后一页</a>&nbsp;&nbsp;</td><td style="text-align:right;"><input name="DeluxePager1$txtGoto" type="text" value="8" id="DeluxePager1_txtGoto" style="" />&nbsp;<input type="submit" name="DeluxePager1$ctl04" value="跳转到" onclick=" var bl = true; var inputVal = document.getElementById('DeluxePager1_txtGoto').value;  var pageCount =document.getElementById('DeluxePager1_txtPageCount').value; if(pageCount.length==0) bl= false;var oneChar;inputStr=inputVal.toString();for (var i=0;i&lt;inputStr.length;i++){oneChar=inputStr.charAt(i);if (oneChar&lt;'0' || oneChar>'9'){ alert('非法字符，请输入整数数字');bl= false;break;}} if((inputVal-pageCount)>0 || inputVal&lt;1){alert('没有此页码，请输入1－' + pageCount + '之间的数字');bl= false;} if(!bl)return false;" />&nbsp;&nbsp;<input name="DeluxePager1$txtPageCount" type="hidden" id="DeluxePager1_txtPageCount" value="9" /></td>
+	</tr>
+</table></span>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </form>
+</body>
+</html>

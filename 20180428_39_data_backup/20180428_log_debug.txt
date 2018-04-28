@@ -1,0 +1,552 @@
+
+e:\vs2017>perl  GetCustomsParameters.pl
+
+  CscxMsList size=15
+  tableName=zfs_table_qyxz
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_qyxz
+  totalRecord=9, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=9, totalPage=1, record=9
+  tableName=zfs_table_gq
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq
+  totalRecord=1044, pageSize=30, pageNumber=1, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=1, DeluxePager1_txtPageCount=35
+who are you?
+  totalRecord=1044, totalPage=35, record=30
+leftPage=34
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=2, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=2, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=33
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=3, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=3, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=32
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=4, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=4, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=31
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=5, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=5, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=30
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=6, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=6, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=29
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=7, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=7, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=28
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=8, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=8, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=27
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=9, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=9, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=26
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=10, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=10, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=25
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=11, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=11, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=24
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=12, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=12, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=23
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=13, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=13, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=22
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=14, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=14, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=21
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=15, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=15, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=20
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=16, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=16, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=19
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=17, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=17, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=18
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=18, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=18, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=17
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=19, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=19, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=16
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=20, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=20, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=15
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=21, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=21, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=14
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=22, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=22, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=13
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=23, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=23, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=12
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=24, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=24, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=11
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=25, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=25, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=10
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=26, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=26, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=9
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=27, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=27, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=8
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=28, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=28, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=7
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=29, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=29, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=6
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=30, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=30, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=5
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=31, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=31, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=4
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=32, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=32, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=3
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=33, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=33, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=2
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=34, totalPage=35
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=34, DeluxePager1_txtPageCount=35
+who are you?
+leftPage=1
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gq OK!
+  totalRecord=1044, pageSize=30, pageNumber=35, totalPage=35
+Yeah! one page!
+who are you?
+  Finished: record=1044, totalRecord=1044
+  tableName=zfs_table_gndq
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq
+  totalRecord=780, pageSize=30, pageNumber=1, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=1, DeluxePager1_txtPageCount=26
+who are you?
+  totalRecord=780, totalPage=26, record=30
+leftPage=25
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=2, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=2, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=24
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=3, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=3, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=23
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=4, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=4, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=22
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=5, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=5, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=21
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=6, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=6, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=20
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=7, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=7, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=19
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=8, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=8, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=18
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=9, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=9, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=17
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=10, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=10, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=16
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=11, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=11, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=15
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=12, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=12, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=14
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=13, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=13, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=13
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=14, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=14, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=12
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=15, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=15, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=11
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=16, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=16, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=10
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=17, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=17, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=9
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=18, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=18, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=8
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=19, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=19, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=7
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=20, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=20, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=6
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=21, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=21, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=5
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=22, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=22, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=4
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=23, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=23, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=3
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=24, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=24, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=2
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=25, totalPage=26
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=25, DeluxePager1_txtPageCount=26
+who are you?
+leftPage=1
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gndq OK!
+  totalRecord=780, pageSize=30, pageNumber=26, totalPage=26
+Yeah! one page!
+who are you?
+  Finished: record=780, totalRecord=780
+  tableName=zfs_table_gbdq
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq
+  totalRecord=243, pageSize=30, pageNumber=1, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=1, DeluxePager1_txtPageCount=9
+who are you?
+  totalRecord=243, totalPage=9, record=30
+leftPage=8
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=2, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=2, DeluxePager1_txtPageCount=9
+who are you?
+leftPage=7
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=3, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=3, DeluxePager1_txtPageCount=9
+who are you?
+leftPage=6
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=4, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=4, DeluxePager1_txtPageCount=9
+who are you?
+leftPage=5
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=5, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=5, DeluxePager1_txtPageCount=9
+who are you?
+leftPage=4
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=6, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=6, DeluxePager1_txtPageCount=9
+who are you?
+leftPage=3
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=7, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=7, DeluxePager1_txtPageCount=9
+who are you?
+leftPage=2
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=8, totalPage=9
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=8, DeluxePager1_txtPageCount=9
+who are you?
+leftPage=1
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_gbdq OK!
+  totalRecord=243, pageSize=30, pageNumber=9, totalPage=9
+Yeah! one page!
+who are you?
+  Finished: record=243, totalRecord=243
+  tableName=zfs_table_dqxz
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_dqxz
+  totalRecord=11, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=11, totalPage=1, record=11
+  tableName=zfs_table_bz
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_bz
+  totalRecord=24, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=24, totalPage=1, record=24
+  tableName=zfs_table_zmxz
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_zmxz
+  totalRecord=45, pageSize=30, pageNumber=1, totalPage=2
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=1, DeluxePager1_txtPageCount=2
+who are you?
+  totalRecord=45, totalPage=2, record=30
+leftPage=1
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_zmxz OK!
+  totalRecord=45, pageSize=30, pageNumber=2, totalPage=2
+Yeah! one page!
+who are you?
+  Finished: record=45, totalRecord=45
+  tableName=zfs_table_zjmsfs
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_zjmsfs
+  totalRecord=9, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=9, totalPage=1, record=9
+  tableName=zfs_table_cjfs
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_cjfs
+  totalRecord=6, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=6, totalPage=1, record=6
+  tableName=zfs_table_yt
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_yt
+  totalRecord=12, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=12, totalPage=1, record=12
+  tableName=zfs_table_myfs
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_myfs
+  totalRecord=95, pageSize=30, pageNumber=1, totalPage=4
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=1, DeluxePager1_txtPageCount=4
+who are you?
+  totalRecord=95, totalPage=4, record=30
+leftPage=3
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_myfs OK!
+  totalRecord=95, pageSize=30, pageNumber=2, totalPage=4
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=2, DeluxePager1_txtPageCount=4
+who are you?
+leftPage=2
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_myfs OK!
+  totalRecord=95, pageSize=30, pageNumber=3, totalPage=4
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=3, DeluxePager1_txtPageCount=4
+who are you?
+leftPage=1
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_myfs OK!
+  totalRecord=95, pageSize=30, pageNumber=4, totalPage=4
+Yeah! one page!
+who are you?
+  Finished: record=95, totalRecord=95
+  tableName=zfs_table_jgzj
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_jgzj
+  totalRecord=30, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=30, totalPage=1, record=30
+  tableName=zfs_table_jsfs
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_jsfs
+  totalRecord=9, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=9, totalPage=1, record=9
+  tableName=zfs_table_jldw
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_jldw
+  totalRecord=122, pageSize=30, pageNumber=1, totalPage=5
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=1, DeluxePager1_txtPageCount=5
+who are you?
+  totalRecord=122, totalPage=5, record=30
+leftPage=4
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_jldw OK!
+  totalRecord=122, pageSize=30, pageNumber=2, totalPage=5
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=2, DeluxePager1_txtPageCount=5
+who are you?
+leftPage=3
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_jldw OK!
+  totalRecord=122, pageSize=30, pageNumber=3, totalPage=5
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=3, DeluxePager1_txtPageCount=5
+who are you?
+leftPage=2
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_jldw OK!
+  totalRecord=122, pageSize=30, pageNumber=4, totalPage=5
+href=javascript:__doPostBack('DeluxePager1$lbtnNext','')
+got DeluxePager1_txtGoto=4, DeluxePager1_txtPageCount=5
+who are you?
+leftPage=1
+  post http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_jldw OK!
+  totalRecord=122, pageSize=30, pageNumber=5, totalPage=5
+Yeah! one page!
+who are you?
+  Finished: record=122, totalRecord=122
+  tableName=zfs_table_ysfs
+  process url=http://query.customs.gov.cn/HYW2007DataQuery/Cscx/CscxListView.aspx?tableName=zfs_table_ysfs
+  totalRecord=16, pageSize=30, pageNumber=1, totalPage=1
+Yeah! one page!
+who are you?
+  totalRecord=16, totalPage=1, record=16
+
+e:\vs2017>
